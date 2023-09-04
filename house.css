@@ -1,0 +1,116 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 100px);
+}
+
+.header{
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 31px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    
+}
+
+.toAdmin{
+    text-align: right;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.homeImg{
+    width: 500px;
+    border-radius: 50px;
+}
+
+.house{
+    display: flex;
+    gap: 0 40px;
+}
+
+.right{
+    font-family: Montserrat;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    font-size: 20px;
+    
+}
+
+.form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 129, 41);
+}
+
+.btn{
+    background-color: rgb(223, 129, 41);
+    border: none;
+    color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+table {
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #efe9d7;
+    color: #656665;
+    border: 16px solid #efe9d7;
+
+}
+th {
+    font-size: 16px;
+    width: 165px;
+    font-style: italic;
+    height: 40px;
+    align-items: center;
+    
+    
+}
+td {
+    background: #e3d5c9;
+    padding: 10px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.titleTwo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+@font-face {
+	font-family: Montserrat;
+	src: url('./Montserrat-Regular.ttf');
+}
+
